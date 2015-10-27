@@ -44,5 +44,5 @@ group :development, :test do
   gem 'spring'
 end
 
-gem 'carrierwave'
+gem 'carrierwave', github: 'carrierwaveuploader/carrierwave'
 gem 'fog-aws'
