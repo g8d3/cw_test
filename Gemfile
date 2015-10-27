@@ -44,5 +44,10 @@ group :development, :test do
   gem 'spring'
 end
 
-gem 'carrierwave', github: 'carrierwaveuploader/carrierwave'
-gem 'fog-aws'
+gem 'carrierwave'
+gem "fog" #, "~> 1.3.1"
+
+# gem 'carrierwave', github: 'carrierwaveuploader/carrierwave'
+# gem 'fog-aws'
+gem 'responders', '~> 2.0'
+gem 'pry-rails'
